@@ -1,9 +1,10 @@
 import React from 'react'
+import HomeHero from '../components/HomeHero'
 
 const Home = () => {
   return (
-    <div>
-      
+    <div className='relative'>
+      <HomeHero />
     </div>
   )
 }
