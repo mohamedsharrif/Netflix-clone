@@ -3,6 +3,7 @@ import HomeHero from '../components/HomeHero'
 import Features from '../components/feature/Features'
 import Faqs from '../components/faqs/Faqs'
 import Footer from '../components/footer/Footer'
+import Sub from '../components/Sub'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <HomeHero />
       <Features />
       <Faqs />
+      <Sub />
       <Footer />
     </div>
   )
